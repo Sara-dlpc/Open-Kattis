@@ -1,0 +1,3 @@
+name = input()
+short_form = ''.join([word[0] for word in name.split('-')])
+print(short_form)
